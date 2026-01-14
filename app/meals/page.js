@@ -1,4 +1,5 @@
 import Link from "next/link";
+import MealsGrid from "@/components/meals/meals-grid";
 
 import classes from './page.module.css';
 
@@ -19,6 +20,7 @@ const MealsPage = () => {
         </p>
       </header>
       <main className={classes.main}>
+        <MealsGrid meals={[]} />
       </main>
     </>
   );
