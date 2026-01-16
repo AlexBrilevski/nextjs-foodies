@@ -1,4 +1,4 @@
-import classes from './loading.module.css';
+import classes from './meals-loading-page.module.css';
 
 const MealsLoadingPage = () => {
   return (
