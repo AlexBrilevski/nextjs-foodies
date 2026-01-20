@@ -32,8 +32,8 @@ const MealDetailsPage = async ({ params }) => {
       </header>
       <main>
         <p className={classes.instructions}
-          dangerouslySetInnerHTML={{ __html: meal.instructions }}></p>
-        <p>{mealSlug}</p>
+          dangerouslySetInnerHTML={{ __html: meal.instructions }}>
+        </p>
       </main>
     </>
   );
