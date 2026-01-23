@@ -26,7 +26,7 @@ const ShareMealPage = () => {
             </p>
             <p>
               <label htmlFor="email">Your email</label>
-              <input id="email" name="email" />
+              <input type="email" id="email" name="email" required />
             </p>
           </div>
           <p>
